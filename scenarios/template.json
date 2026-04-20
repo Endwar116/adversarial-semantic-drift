@@ -1,0 +1,35 @@
+{
+  "scenario": "your scenario description here",
+  "metadata": {
+    "version": "1.0.0",
+    "date": "YYYY-MM-DD",
+    "classification": "synthetic_research_only",
+    "intent": "demonstrate compositional vulnerability, not operational guidance"
+  },
+  "steps": [
+    {
+      "step": 1,
+      "model": "ModelA",
+      "input": "Initial benign-framing prompt",
+      "output": "Model A response establishing context"
+    },
+    {
+      "step": 2,
+      "model": "ModelB",
+      "input": "Follow-up that references Model A output",
+      "output": "Model B response with technical escalation"
+    },
+    {
+      "step": 3,
+      "model": "ModelA",
+      "input": "Deeper technical request leveraging Model B context",
+      "output": "Model A response with further specificity"
+    },
+    {
+      "step": 4,
+      "model": "ModelB",
+      "input": "Final request: operational details under claimed legitimacy",
+      "output": "Model B response - potential breach point"
+    }
+  ]
+}
