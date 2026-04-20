@@ -1,0 +1,53 @@
+NOTICE
+
+This project (ASDR — Adversarial Semantic Drift Replayer) uses concepts
+and threshold values from the SIC/T Protocol.
+
+SIC/T Protocol is designed by Cheng, An-Hua (Andwar).
+  Protocol site:   https://cloud-lx.onrender.com
+  Core repository: https://github.com/Endwar116/SIC-SIT-Protocol
+  Contact:         soulhome2222@gmail.com
+
+------------------------------------------------------------------------
+SIC/T ELEMENTS INCLUDED IN THIS TOOL (open protocol specification)
+------------------------------------------------------------------------
+
+The following are part of the open SIC/T Protocol standard and are
+freely usable under the terms of the MIT License accompanying this tool:
+
+  - S* = 2.76  (semantic phase-transition threshold)
+  - THRESHOLD_CRITICAL = 4.14
+  - THRESHOLD_COLLAPSE = 5.0
+  - THRESHOLD_LETHAL   = 5.52
+  - ENTROPY_FACTOR     = 0.18
+  - Three-layer entropy architecture (S_stat / S_struct / S_evasion)
+  - Six-layer integrity scan architecture (canonical definition)
+  - Encoding Gate specification
+  - Semantic drift threshold system (0.18 / 0.35 rad)
+
+------------------------------------------------------------------------
+SIC/T ELEMENTS NOT INCLUDED IN THIS TOOL
+------------------------------------------------------------------------
+
+The following SIC/T components are NOT part of this repository and
+require a separate commercial license from the copyright holder:
+
+  - ASEE v2 (Advanced Semantic Entropy Engine)
+  - Regenerative System
+  - OSC-A (Oscillation Mode)
+  - VCE (Vector Coordinate Engine) technical architecture
+  - SPD (Semantic Primitive Distillation) Step 5 methodology
+  - SIC-JS Format B fields (semantic state transmission)
+  - Babel Constraint System full implementation
+
+------------------------------------------------------------------------
+THIRD-PARTY COMPONENTS
+------------------------------------------------------------------------
+
+This tool uses the following open-source libraries:
+
+  - NumPy (BSD License)         https://numpy.org
+  - scikit-learn (BSD License)  https://scikit-learn.org
+
+Optional (not required by default):
+  - sentence-transformers (Apache 2.0)  https://sbert.net
